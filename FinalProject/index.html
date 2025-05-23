@@ -9,51 +9,98 @@
   <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <div id="wrapper">
-        <header>
-          <h1>Design @ CUNY</h1>
+  <header>
+    <div class="header-container">
+      <div class="logo">Design @ CUNY</div>
 
-          <nav class="top-nav">
+    <button class="menu-toggle" aria-label="Toggle Menu">
+      <img src="images/menu.svg" alt="Menu Icon" />
+    </button>
 
-          </nav>
-        </header>
-        <div class="search-programs">
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="https://www.bmcc.cuny.edu/about-bmcc/">About CUNY</a>
+      <a href="https://www.bmcc.cuny.edu/finaid/">Financial Aid</a>
+      <a href="https://www.bmcc.cuny.edu/admissions/apply-now/">Apply</a>
+        <form action="" method="get" class="">
+          <input type="search" name="search" placeholder="Search...">
+          <button>Go</button>
+        </form>
+      </nav>
+    </div>
+  </header>
 
-        </div>
-        <div class="hero-banner">
-
-        </div>
-        <main>
-          <div class="layout">
-            <section class="news">
-  
-            </section>
-            <section class="events">
-  
-            </section>
-          </div>
+  <section class="hero">
+    <h1>Find Your Future in Design</h1>
+    <p>Explore top Digital Design, Animation, and Industrial Design programs across CUNY colleges.</p>
+  </section>
 
   <main>
-    <section class="filters">
-      <button class="filter-btn" data-category="brooklyn">Brooklyn</button>
-      <button class="filter-btn" data-category="animation">Animation</button>
-      <button class="filter-btn" data-category="associate">Associate</button>
-    </section>
+    <section class="dropdown-section">
+      <h2>Find a Degree Program</h2>
+      <div class="dropdown-grid">
 
-    <section class="program-grid">
-      <div class="program-card animation associate brooklyn">
-        <img src="" alt="BMCC Animation Program">
-        <h3>BMCC</h3>
-        <p><strong>Animation & Motion Graphics</strong></p>
-        <p>Associate Degree</p>
-        <p>Learn animation using industry-standard tools and methods.</p>
-        <a href="https://www.bmcc.cuny.edu/academics/programs/animation-and-motion-graphics/" target="_blank">Visit Program</a>
+       
+        <div class="dropdown-column">
+          <button class="dropdown-btn">Discipline</button>
+          <div class="dropdown-content">
+            <a href="digital-design.html">Digital Design</a>
+            <a href="animation.html">Animation Programs</a>
+            <a href="industrial-design.html">Industrial Design</a>
+          </div>
+        </div>
+
+        
+        <div class="dropdown-column">
+          <button class="dropdown-btn">Degree</button>
+          <div class="dropdown-content">
+            <a href="bachelor.html">Bachelor’s Degree Programs</a>
+            <a href="associate.html">Associates Degree Programs</a>
+          </div>
+        </div>
+
+       
+        <div class="dropdown-column">
+          <button class="dropdown-btn">Borough</button>
+          <div class="dropdown-content">
+            <a href="brooklyn.html">Programs in Brooklyn</a>
+            <a href="bronx.html">Programs in Bronx</a>
+            <a href="manhattan.html">Programs in Manhattan</a>
+            <a href="queens.html">Programs in Queens</a>
+          </div>
+        </div>
+    </section>
+    </main>
+
+    <section class="hero-banner">
+      <img src="images/main-campus.jpg" alt="Hero image" />
+    </section>
+    
+
+    <section class="news-events">
+      <div class="news-column">
+        <h2>CUNY Design News</h2>
+        <h3 class="news-title">And the winners Are... BMCC Student Filmmakers</h3>
+        <p>Emerging filmmakers at Borough of Manhattan Community College (BMCC/CUNY) learn theory as well as experiencing first-hand, the writing, planning, shooting, editing and screening of an original film to a live audience.</p>
+        <a href="https://www.bmcc.cuny.edu/news/and-the-winners-are-bmcc-student-filmmakers/" class="read-more-btn">Read More</a>
+
+        <h3 class="news-title">BMCC Spring Film Festival Showcases Student Productions</h3>
+        <p>Borough of Manhattan Community College’s (BMCC/CUNY) Cinema Arts Club hosted the Spring 2025 Film Festival on May 4 in Theatre 2 at 199 Chambers Street. The festival, which takes place each spring and fall semester, showcases films made by current BMCC students.</p>
+        <a href="https://www.bmcc.cuny.edu/news/bmcc-spring-film-festival-showcases-student-productions/" class="read-more-btn">Read More</a>
+      </div>
+    
+      <div class="events-column">
+        <h2>Events</h2>
+        <img src="images/Event.jpg" alt="Event Image" class="event-image"/>
+        <a href="https://www.bmcc.cuny.edu/event/cuny-in-the-heights-applicant-workshop-17/" class="event-link">CUNY in the Heights: Applicant Workshop</a>
+        <p class="event-meta">Date: MAy 22, 2025<br>Time: 10:00 AM – 4:00 PM<br>College: CUNY in the Heights</p>
       </div>
     </section>
-  </main>
+    </body>
 
   <footer>
-    <p>&copy; Copyright 2020 The City University of New York</p>
+    <p>&copy; Copyright 2025 The City University of New York</p>
+    <p><a href="https://www.cuny.edu" target="_blank" style="color: #fff;">Visit CUNY Website</a></p>
   </footer>
 
   <script src="js/script.js"></script>
